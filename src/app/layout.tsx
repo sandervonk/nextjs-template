@@ -11,11 +11,11 @@ const inter = Inter({
   variable: "--font",
 });
 
-const SITE_URL = "https://svonk.me";
-const SITE_TITLE = "Sander Vonk";
-const SITE_PAGE = [SITE_TITLE, "Home"].join(" | ");
+const SITE_URL = "https://example.com";
+const SITE_TITLE = "Site title";
+const SITE_PAGE = SITE_TITLE + " | Home";
 const SITE_DESCRIPTION =
-  "Hi, I'm Sander, a student studying Information Systems and Human-Computer Interaction at Carnegie Mellon developing web applications aimed at providing equal opportunity for students worldwide";
+  "A clean Next.js starter with static export, GitHub Pages, and sensible defaults.";
 export const metadata: Metadata = {
   title: SITE_PAGE,
   metadataBase: new URL(SITE_URL),
@@ -42,7 +42,6 @@ export const metadata: Metadata = {
     title: SITE_PAGE,
     description: SITE_DESCRIPTION,
     images: ["/img/og.webp"],
-    creator: "@sandercvonk",
   },
   icons: {
     icon: [
